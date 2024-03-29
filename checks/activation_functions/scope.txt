@@ -1,0 +1,3 @@
+This study aims to proof the formulas and the code of the derivatives of the activation functions.
+
+Additionally, we have implemented a use case for the yacht example, where we demonstrate the use of all the activation functions in a network, and we obtain the linear function approximations plotting to show that its tangent to the scatterplot generated.
