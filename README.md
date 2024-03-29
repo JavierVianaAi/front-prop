@@ -20,12 +20,11 @@ Folders:
 
 		Note: In order to run algo_top.py as it is coded right now, algo_bottom.py and the files inside train_gen_files folder should be in the local directory.
 
-
 		Functions inside:
 
 			display_explanation_of_instance: Display the results for a given i_instance in a user friendly format.
+   
 			plot_explanation_performance: Visualization of the linear function prediction vs NN prediction. See function inside for variable definition.
-
 
 
 - docs: Additional documentation that helped creating the code.
@@ -48,6 +47,5 @@ Folders:
 
 		“foo_explain.ipynb”: Executes the algo_top.py to generate the linear function explanations.
 		  
-	
 	
 	- figures: Figures used in the Paper for the instances studied in each case.
