@@ -1,0 +1,25 @@
+Source of the data:
+https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+ 
+
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+
+
+The data folder has one file:
+ 
+1. “pima-indians-diabetes.csv”: The raw data downloaded from the Kaggle.
+
+
+The datasets consist of several medical predictor (independent) variables and one target (dependent) variable. 
+
+Independent variables include:
+The number of pregnancies the patient has had.
+Glucose Level
+Blood Pressure
+Skin Thickness
+Insulin Level
+BMI (Body Mass Index)
+Diabetes Pedigree
+Age
+
+

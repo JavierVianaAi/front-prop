@@ -1,0 +1,109 @@
+The credit UCI ML dataset can be found in:
+https://archive.ics.uci.edu/ml/datasets/South+German+Credit
+ 
+The data folder has two files:
+ 
+1. “credit.data”: The raw data downloaded from the UCI.
+2. “credit.xlsx”: Which is the same data contained in “credit.data” but transformed to an .xlsx file.
+ 
+
+There is categorical data (some multivariate) and it is also a classification problem.
+
+variable_names = [“status”, “credit duration”, “credit history”, “credit purpose”, “credit amount”, “savings”, “employment duration”, “installment rate”, “personal status”, “other debtors”, “residence length”, “property”, “age”, “other installment plans”, “housing”, “number credits”, “job quality”, “number of people liable”, “telephone”, “foreign worker”]
+
+
+Description of the Variables:
+
+
+Variable name: status 
+Content: status of the debtor's checking account with the bank (categorical) 
+
+
+Variable name: duration 
+Content: credit duration in months (quantitative) 
+
+
+Variable name: credit_history 
+Content: history of compliance with previous or concurrent credit contracts (categorical) 
+
+
+Variable name: purpose 
+Content: purpose for which the credit is needed (categorical) 
+
+
+Variable name: amount 
+Content: credit amount in DM (quantitative; result of monotonic transformation; actual data and type of 
+transformation unknown) 
+
+
+Variable name: savings 
+Content: debtor's savings (categorical) 
+
+
+Variable name: employment_duration 
+Content: duration of debtor's employment with current employer (ordinal; discretized quantitative) 
+
+
+Variable name: installment_rate 
+Content: credit installments as a percentage of debtor's disposable income (ordinal; discretized quantitative) 
+
+
+Variable name: personal_status_sex 
+Content: combined information on sex and marital status; categorical; sex cannot be recovered from the 
+variable, because male singles and female non-singles are coded with the same code (2); female widows cannot 
+be easily classified, because the code table does not list them in any of the female categories 
+
+
+Variable name: other_debtors 
+Content: Is there another debtor or a guarantor for the credit? (categorical) 
+
+
+Variable name: present_residence 
+Content: length of time (in years) the debtor lives in the present residence (ordinal; discretized quantitative) 
+
+
+Variable name: property 
+Content: the debtor's most valuable property, i.e. the highest possible code is used. Code 2 is used, if codes 3 
+or 4 are not applicable and there is a car or any other relevant property that does not fall under variable 
+sparkont. (ordinal) 
+
+
+Variable name: age 
+Content: age in years (quantitative) 
+
+
+Variable name: other_installment_plans 
+Content: installment plans from providers other than the credit-giving bank (categorical) 
+
+
+Variable name: housing 
+Content: type of housing the debtor lives in (categorical) 
+
+
+Variable name: number_credits 
+Content: number of credits including the current one the debtor has (or had) at this bank (ordinal, discretized 
+quantitative); contrary to Fahrmeir and HamerleÃ¢â‚¬â„¢s (1984) statement, the original data values are not available. 
+
+
+Variable name: job 
+Content: quality of debtor's job (ordinal) 
+
+
+Variable name: people_liable 
+Content: number of persons who financially depend on the debtor (i.e., are entitled to maintenance) (binary, 
+discretized quantitative) 
+
+
+Variable name: telephone 
+Content: Is there a telephone landline registered on the debtor's name? (binary; remember that the data are 
+from the 1970s) 
+
+
+Variable name: foreign_worker 
+Content: Is the debtor a foreign worker? (binary) 
+
+
+Variable name: credit_risk 
+Content: Has the credit contract been complied with (good) or not (bad) ? (binary)
+
+
