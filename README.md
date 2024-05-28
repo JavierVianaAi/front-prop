@@ -7,7 +7,6 @@
 **arXiv pre-print:** https://arxiv.org/abs/2405.16259
 
 <br/><br/>
-
 **Folders of front-prop:**
 
 - checks: This folder has different studies and validations that we carry out related to the activation functions (AFs).
