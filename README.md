@@ -28,9 +28,9 @@
 
 		Functions inside:
 
-			display_explanation_of_instance: Display the results for a given i_instance in a user friendly format.
+			display_explanation_of_instance() # Display the results for a given i_instance in a user friendly format.
    
-			plot_explanation_performance: Visualization of the linear function prediction vs NN prediction. See function inside for variable definition.
+			plot_explanation_performance() # Visualization of the linear function prediction vs NN prediction. See function inside for variable definition.
 
 
 - docs: Additional documentation that helped creating the code.
