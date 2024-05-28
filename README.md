@@ -1,13 +1,13 @@
 # front-prop
-Front propagation algorithm to obtain linear function approximations of neural networks.
+
+**Description:** Front propagation algorithm to obtain linear function approximations of neural networks.
 
 **Paper publication:** Front-propagation Algorithm: Explainable AI Technique for Extracting Linear Function Approximations from Neural Networks. In: Barnabas Bede, Kelly Cohen, and Vladik Kreinovich (eds.), Proceedings of the NAFIPS International Conference on Fuzzy Systems, Soft Computing, and Explainable AI. NAFIPS'2024, South Padre Island, Texas, May 27-29, 2024.
 
 **arXiv pre-print:** https://arxiv.org/abs/2405.16259
 
 
-
-Folders of front-prop:
+**Folders of front-prop:**
 
 - checks: This folder has different studies and validations that we carry out related to the activation functions (AFs).
 	Here we proof that the formulation of the derivatives of the AFs is correct.
